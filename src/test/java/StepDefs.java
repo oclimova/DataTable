@@ -9,6 +9,7 @@ public class StepDefs {
     public void hereIsOurStepWithDataTable(DataTable dataTable) throws Throwable {
         // here we need to convert DataTable in a map or smth like this
         List<MyClass> theList = dataTable.asList(MyClass.class);
-        System.out.println(theList.get(1).getIntData());
+        System.out.println("Our list:");
+        System.out.println(theList);
     }
 }
