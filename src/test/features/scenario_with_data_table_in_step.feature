@@ -10,7 +10,7 @@ Feature: Scenario with data table in step
 
   @Run
   Scenario: Has a step with data table that has less fields than the class
-    Given a step with data table that has less fields than the class
+    Given here is our step with data table
       | stringData | intData |
       | data 1     | 1       |
       | data 2     | 2       |
